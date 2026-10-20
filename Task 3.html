@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>Continental Hotel Reservation Form</h2>
+
+        <table border="1">
+            <tr>
+                <td><b>Name</b></td>
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><b>eMail</b></td>
+                <td><input type="text" value="info@continental.pk"></td>
+            </tr>
+            <tr>
+                <td><b>Mobile No</b></td>
+                <td><input type="text" placeholder="Enter your cell number"></td>
+            </tr>
+            <tr>
+                <td><b>Arrival Time</b></td>
+                <td><input type="text" placeholder="Enter your arrival time"></td>
+            </tr>
+            <tr>
+                <td><b>Departure</b></td>
+                <td>
+                    <input type="text" size="10">
+                    <input type="text" size="10">
+                </td>
+            </tr>
+            <tr>
+                <td><b>Room Type</b></td>
+                <td>
+                    <input type="radio" name="room"> Single
+                    <input type="radio" name="room"> Double <br>
+                    <input type="radio" name="room"> Presidential Suite
+                </td>
+            </tr>
+            <tr>
+                <td><b>Preferences</b></td>
+                <td>
+                    <input type="checkbox"> Non-Smoking <br>
+                    <input type="checkbox"> Internet <br>
+                    <input type="checkbox"> Firm Mattress
+                </td>
+            </tr>
+            <tr>
+                <td><b>Mode of Payment</b></td>
+                <td>
+                    <input type="checkbox"> Cash
+                    <input type="checkbox"> Check <br>
+                    <input type="checkbox"> Credit Card
+                    <select>
+                        <option>Select Card</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Send Data">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .box {
+            background-color: lightgray;
+            width: 450px;
+            margin: 20px auto;
+            padding: 15px;
+        }
+
+        h2 {
+            color: red;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            background-color: #dbe8ff;
+            border-color: #6699cc;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        input[type="text"] {
+            width: 90%;
+        }
+    </style>
+
+</body>
+</html>
